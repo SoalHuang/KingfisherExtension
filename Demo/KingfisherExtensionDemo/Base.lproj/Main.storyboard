@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KingfisherExtensionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BXW-sl-e81">
+                                <rect key="frame" x="0.0" y="44" width="414" height="207"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BXW-sl-e81" secondAttribute="height" multiplier="2:1" id="MWD-CJ-fgZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1J-Wh-JGD">
+                                <rect key="frame" x="0.0" y="259" width="414" height="207"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="n1J-Wh-JGD" secondAttribute="height" multiplier="2:1" id="56B-Zl-nlM"/>
+                                </constraints>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OAU-Pz-bxQ">
+                                <rect key="frame" x="0.0" y="476" width="414" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OAU-Pz-bxQ" secondAttribute="height" multiplier="2:1" id="K0d-0M-7Ek"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BXW-sl-e81" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9KN-zq-z7z"/>
+                            <constraint firstItem="n1J-Wh-JGD" firstAttribute="top" secondItem="BXW-sl-e81" secondAttribute="bottom" constant="8" symbolic="YES" id="ADc-Xo-R5g"/>
+                            <constraint firstItem="BXW-sl-e81" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OWX-Hm-5OL"/>
+                            <constraint firstItem="BXW-sl-e81" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XuG-rb-OJS"/>
+                            <constraint firstItem="n1J-Wh-JGD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="onf-3D-IjY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OAU-Pz-bxQ" secondAttribute="trailing" id="qSw-vZ-nyI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BXW-sl-e81" secondAttribute="trailing" id="ut7-7c-IoR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n1J-Wh-JGD" secondAttribute="trailing" id="zJ8-RF-0pq"/>
+                            <constraint firstItem="OAU-Pz-bxQ" firstAttribute="top" secondItem="n1J-Wh-JGD" secondAttribute="bottom" constant="10" id="zMD-e8-2wA"/>
+                            <constraint firstItem="OAU-Pz-bxQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zOK-vu-n0D"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="n1J-Wh-JGD" id="ZvG-tw-bHL"/>
+                        <outlet property="imageView" destination="BXW-sl-e81" id="LqE-NN-ud0"/>
+                        <outlet property="imageView2" destination="OAU-Pz-bxQ" id="GzF-kY-Osd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="134"/>
+        </scene>
+    </scenes>
+</document>
