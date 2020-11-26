@@ -8,7 +8,6 @@
 
 import Foundation
 import SDFoundation
-import SDUIKit
 import Kingfisher
 
 public typealias ImageResource = SDFoundation.Resource<UIImage>

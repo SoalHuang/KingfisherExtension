@@ -8,7 +8,6 @@
 
 import UIKit
 import Kingfisher
-import SDUIKit
 
 public protocol ImageLoadingable: Loadingable {
     
