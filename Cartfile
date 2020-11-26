@@ -4,4 +4,4 @@
 
  git "https://github.com/SoalHuang/SDFoundation.git" "master"
 
- git "https://github.com/SoalHuang/SDUIKit.git" "quick"
+ git "https://github.com/SoalHuang/SDUIKit.git" "master"
